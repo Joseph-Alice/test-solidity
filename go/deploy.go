@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
 	"log"
+	"os"
 	"strings"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
@@ -22,7 +22,7 @@ func main() {
 	}
 
 	// 加载合约 ABI
-	abiFile, err := ioutil.ReadFile("../contracts/MyToken.json")
+	abiFile, err := os.ReadFile("../contracts/MyToken.json")
 	// abiFile, err := ioutil.ReadFile("../build/MyToken.abi")
 	if err != nil {
 		log.Fatal(err)
