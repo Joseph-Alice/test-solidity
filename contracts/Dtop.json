@@ -11680,14 +11680,84 @@
   },
   "networks": {
     "97": {
-      "events": {},
+      "events": {
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "spender",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event"
+        },
+        "0x0a6387c9ea3628b88a633bb4f3b151770f70085117a15f9bf3787cda53f13d31": {
+          "anonymous": false,
+          "inputs": [],
+          "name": "EIP712DomainChanged",
+          "type": "event"
+        },
+        "0x69c8e61cf07c9e5986f7ba9d7411d996952f45bab95904d856e2691894d0e0cb": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "deployer",
+              "type": "address"
+            }
+          ],
+          "name": "LogConstructorCalled",
+          "type": "event"
+        },
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        }
+      },
       "links": {},
-      "address": "0x8235c3D446Fdb54f2ae8Be857e122a7c0aD368D7",
-      "transactionHash": "0x9e3a63d50d63c1f831c779f3b15cc3b4468cd7e8773798ac80ae2ac155379796"
+      "address": "0xe688B47ca1CB858E672a39517AEDf1fc59fA58C9",
+      "transactionHash": "0x7eeae90084d6686b6c3a24d6020abf851fd866bb858495786bace5371d513184"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-10-20T06:27:21.572Z",
+  "updatedAt": "2023-10-20T06:30:59.879Z",
   "networkType": "ethereum",
   "devdoc": {
     "errors": {
